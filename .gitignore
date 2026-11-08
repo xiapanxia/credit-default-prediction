@@ -1,0 +1,24 @@
+# 原始数据体积大，不入库；下载方式见 data/README.md
+data/raw/*.csv
+data/interim/
+data/processed/
+
+# 虚拟环境
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# 输出产物
+outputs/*.png
+outputs/*.csv
+outputs/*.pkl
+outputs/*.joblib
+*.log
+
+# 系统
+.DS_Store
+Thumbs.db
